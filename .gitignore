@@ -1,0 +1,10 @@
+venv/
+logs/
+reports/
+*.log
+.agents
+.env
+__pycache__/
+map_store.json
+results.json
+*.png

@@ -1,0 +1,4 @@
+{
+  "labels": ["Play", "Create new world", "Create new world", "CREATE", "SELECT", "Pause", "Back to Game"],
+  "_comment": "Minecraft PE Setup Path: Navigates to Create new world, inputs dynamic world name, selects LLM-chosen difficulty (Easy or Peaceful), builds world, and confirms control mode."
+}

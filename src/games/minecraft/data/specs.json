@@ -1,0 +1,33 @@
+{
+  "game": "Minecraft",
+  "requirements": [
+    {
+      "id": "GMP-01",
+      "category": "gameplay",
+      "requirement": "The game boots and reaches its main menu.",
+      "target_scene": "main_menu",
+      "checks": [{"type": "scene_reached", "scene": "main_menu"}]
+    },
+    {
+      "id": "GMP-02",
+      "category": "gameplay",
+      "requirement": "The player can create a new world and reach a live in-game world.",
+      "target_scene": "in_game",
+      "checks": [{"type": "scene_reached", "scene": "in_game"}]
+    },
+    {
+      "id": "GMP-03",
+      "category": "gameplay",
+      "requirement": "Movement, camera look, hotbar selection, and block interaction all produce an observable change in the world.",
+      "target_scene": "in_game",
+      "checks": [{"type": "check_screen_changed_after_action"}]
+    },
+    {
+      "id": "GMP-04",
+      "category": "gameplay",
+      "requirement": "Pause menu opens and resumes cleanly, and Save & Quit returns the world to the Worlds list.",
+      "target_scene": "pause_menu",
+      "checks": [{"type": "check_pause_menu_showing"}]
+    }
+  ]
+}

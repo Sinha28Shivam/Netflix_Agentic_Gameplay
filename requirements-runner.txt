@@ -1,0 +1,20 @@
+# Real-time runner backend (Subway Surfers / endless runners).
+#
+# WHY A SEPARATE FILE: scrcpy-client 0.4.1 hard-pins `av<10` in its metadata, and
+# those old `av` versions have NO wheel for Python 3.11+ (they try to compile from
+# source and fail on modern Cython). So scrcpy-client MUST be installed with
+# --no-deps AFTER a modern, wheel-backed `av`. A normal `pip install -r` cannot
+# express that, hence the two-step install below.
+#
+# INSTALL (in this order, from the repo root, inside your venv):
+#
+#   pip install -r requirements-runner.txt
+#   pip install --no-deps scrcpy-client==0.4.1
+#
+# ALSO required: the external `scrcpy` binary on PATH (https://github.com/Genymobile/scrcpy).
+# Without scrcpy, src/device/fast_io.py falls back to slow adb capture (test-only).
+
+av>=12,<19            # modern PyAV; ships prebuilt wheels (scrcpy decodes h264 via this)
+adbutils==0.14.1      # scrcpy-client 0.4.1 uses the pre-2.x adbutils API (_AdbStreamConnection)
+opencv-python>=4.8,<5 # cv2 for perception
+numpy>=1.24

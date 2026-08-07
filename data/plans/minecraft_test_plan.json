@@ -1,0 +1,346 @@
+{
+  "game_id": "minecraft",
+  "generated_at": 1785728105.0698204,
+  "test_cases": [
+    {
+      "test_id": "minecraft_mc_01_title_screen_boot",
+      "title": "Game boots to title screen with Mojang branding",
+      "category": "compliance",
+      "target_screen": "main_menu",
+      "route": [],
+      "check_fn": "check_mojang_copyright",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_01_title_screen_boot",
+      "generated_at": 1785728105.0668476
+    },
+    {
+      "test_id": "minecraft_mc_02_play_screen_nav",
+      "title": "Navigate to PLAY screen with Worlds tab visible",
+      "category": "gameplay",
+      "target_screen": "play_menu",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        }
+      ],
+      "check_fn": "check_world_listed_after_save_quit",
+      "check_args": {
+        "world_name": ""
+      },
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_02_play_screen_nav",
+      "generated_at": 1785728105.0668476
+    },
+    {
+      "test_id": "minecraft_mc_03_create_world_config",
+      "title": "Navigate to CREATE NEW WORLD config screen",
+      "category": "gameplay",
+      "target_screen": "create_world_config",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        }
+      ],
+      "check_fn": "check_minecraft_hud_visible",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_03_create_world_config",
+      "generated_at": 1785728105.0668476
+    },
+    {
+      "test_id": "minecraft_mc_04_control_mode_select",
+      "title": "Confirm CONTROL MODE selection dialog",
+      "category": "gameplay",
+      "target_screen": "control_mode",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        }
+      ],
+      "check_fn": "check_minecraft_hud_visible",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_04_control_mode_select",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_05_in_game_hud_render",
+      "title": "World renders and HUD hotbar is displayed",
+      "category": "gameplay",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_minecraft_hud_visible",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_05_in_game_hud_render",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_06_performance_framerate",
+      "title": "FPS remains steady above target threshold during world render",
+      "category": "performance",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_minecraft_hud_visible",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_06_performance_framerate",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_07_movement_joystick",
+      "title": "Movement joystick actually drives the player through the world",
+      "category": "gameplay",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_screen_changed_after_action",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_07_movement_joystick",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_08_camera_look",
+      "title": "Swiping the look area rotates the camera/world view",
+      "category": "gameplay",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_screen_changed_after_action",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_08_camera_look",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_09_hotbar_selection",
+      "title": "Tapping hotbar slots updates the selection highlight",
+      "category": "gameplay",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_screen_changed_after_action",
+      "check_args": {},
+      "requires_ai_judge": true,
+      "source_requirement_id": "mc_09_hotbar_selection",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_10_block_interaction",
+      "title": "Press-and-hold on a block breaks/places it in the world",
+      "category": "gameplay",
+      "target_screen": "in_game",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        }
+      ],
+      "check_fn": "check_screen_changed_after_action",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_10_block_interaction",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_11_pause_resume",
+      "title": "Pause menu opens on demand and resumes gameplay cleanly",
+      "category": "gameplay",
+      "target_screen": "pause_menu",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "Create new world"
+        },
+        {
+          "action": "tap",
+          "target": "CREATE"
+        },
+        {
+          "action": "tap",
+          "target": "SELECT"
+        },
+        {
+          "action": "tap",
+          "target": "Pause"
+        }
+      ],
+      "check_fn": "check_pause_menu_showing",
+      "check_args": {},
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_11_pause_resume",
+      "generated_at": 1785728105.0678487
+    },
+    {
+      "test_id": "minecraft_mc_12_save_and_quit_roundtrip",
+      "title": "Save & Quit persists the world and returns it to the Worlds list",
+      "category": "gameplay",
+      "target_screen": "play_menu",
+      "route": [
+        {
+          "action": "tap",
+          "target": "Play"
+        }
+      ],
+      "check_fn": "check_world_listed_after_save_quit",
+      "check_args": {
+        "world_name": ""
+      },
+      "requires_ai_judge": false,
+      "source_requirement_id": "mc_12_save_and_quit_roundtrip",
+      "generated_at": 1785728105.0678487
+    }
+  ],
+  "skipped_requirements": []
+}

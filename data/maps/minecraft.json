@@ -1,0 +1,2614 @@
+{
+  "game_id": "minecraft",
+  "updated_at": 1785747515.8089354,
+  "nodes": {
+    "main_menu": {
+      "screen_id": "main_menu",
+      "label": "main_menu",
+      "first_seen": 1785483854.4391081,
+      "last_seen": 1785483854.4391081,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINECRAFT",
+        "PLAY",
+        "Settings",
+        "Marketplace",
+        "Dressing Room"
+      ],
+      "actionable_elements": [
+        "PLAY",
+        "Settings",
+        "Marketplace",
+        "Dressing Room"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu": {
+      "screen_id": "play_menu",
+      "label": "play_menu",
+      "first_seen": 1785483854.4391081,
+      "last_seen": 1785483854.4391081,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "PLAY",
+        "Worlds (1)",
+        "Realms",
+        "Servers",
+        "Create new world",
+        "Survival",
+        "My World"
+      ],
+      "actionable_elements": [
+        "Create new world",
+        "My World"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "create_from_menu": {
+      "screen_id": "create_from_menu",
+      "label": "create_from_menu",
+      "first_seen": 1785484941.5286703,
+      "last_seen": 1785484941.5286703,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "CREATE FROM...",
+        "MARKETPLACE",
+        "Create new world",
+        "Featured creators"
+      ],
+      "actionable_elements": [
+        "Create new world"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "create_world_config": {
+      "screen_id": "create_world_config",
+      "label": "create_world_config",
+      "first_seen": 1785484941.5286703,
+      "last_seen": 1785484941.5286703,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Create new world",
+        "World name",
+        "Game mode",
+        "Survival",
+        "Difficulty",
+        "Normal",
+        "CREATE"
+      ],
+      "actionable_elements": [
+        "Survival",
+        "Creative",
+        "Normal",
+        "CREATE"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "control_mode": {
+      "screen_id": "control_mode",
+      "label": "control_mode",
+      "first_seen": 1785484941.5286703,
+      "last_seen": 1785484941.5286703,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "CONTROL MODE",
+        "Joystick",
+        "D-pad",
+        "Tap to Move",
+        "SELECT"
+      ],
+      "actionable_elements": [
+        "SELECT"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game": {
+      "screen_id": "in_game",
+      "label": "in_game",
+      "first_seen": 1785484941.5286703,
+      "last_seen": 1785484941.5286703,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [
+        "Pause"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu": {
+      "screen_id": "pause_menu",
+      "label": "pause_menu",
+      "first_seen": 1785484941.5286703,
+      "last_seen": 1785484941.5286703,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Back to Game",
+        "Save & Quit",
+        "Settings",
+        "How to Play"
+      ],
+      "actionable_elements": [
+        "Back to Game",
+        "Save & Quit"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "main_menu_b0ca9981": {
+      "screen_id": "main_menu_b0ca9981",
+      "label": "main_menu",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "05tew799",
+        "Minecraft",
+        "Flay",
+        "Dun9eons I",
+        "1I",
+        "5ettings",
+        "Learn More",
+        "Fiealms",
+        "Frofile",
+        "Drressing Rioom",
+        "Marketplace",
+        "\u2465Mo.jang RB"
+      ],
+      "actionable_elements": [
+        "05tew799",
+        "Minecraft",
+        "Flay",
+        "Dun9eons I",
+        "1I",
+        "5ettings",
+        "Learn More",
+        "Fiealms"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "create_world_config_213d4274": {
+      "screen_id": "create_world_config_213d4274",
+      "label": "create_world_config",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Worlds(1)",
+        "Riealms",
+        "5ervers",
+        "Create new world",
+        "Survival",
+        "My World"
+      ],
+      "actionable_elements": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Worlds(1)",
+        "Riealms",
+        "5ervers",
+        "Create new world",
+        "Survival",
+        "My World"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "create_from_menu_b88e77bc": {
+      "screen_id": "create_from_menu_b88e77bc",
+      "label": "create_from_menu",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 11,
+      "sample_ui_texts": [
+        "CREATE FROM...",
+        "MARKETPLACE",
+        "Create new world",
+        "Start free trial!",
+        "PA55",
+        "Marketplace Pass",
+        "RERM",
+        "ACTIONS",
+        "Featured creators",
+        "ESTUFF",
+        "MAHAGEMEHT",
+        "1TOOL"
+      ],
+      "actionable_elements": [
+        "CREATE FROM...",
+        "MARKETPLACE",
+        "Create new world",
+        "Start free trial!",
+        "PA55",
+        "Marketplace Pass",
+        "RERM",
+        "ACTIONS"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_71515f54": {
+      "screen_id": "in_game_71515f54",
+      "label": "in_game",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "CREATE HEWHORLD",
+        "Horldname",
+        "My korld",
+        "Gamemode",
+        "Creative",
+        "5urwival",
+        "CREATE",
+        "Explore a mysterious world where you build, collect, craft, and fight monsters.",
+        "Difficulty",
+        "Create on Riealms",
+        "Feaceful",
+        "Easy"
+      ],
+      "actionable_elements": [
+        "CREATE HEWHORLD",
+        "Horldname",
+        "My korld",
+        "Gamemode",
+        "Creative",
+        "5urwival",
+        "CREATE",
+        "Explore a mysterious world where you build, collect, craft, and fight monsters."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "control_mode_43d8e4ac": {
+      "screen_id": "control_mode_43d8e4ac",
+      "label": "control_mode",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "CONTROL MODE",
+        "Choose a Control Mode",
+        "Joystick & tap to interact",
+        "D-Pad & tap to interact",
+        "Joystick & aim crosshair",
+        "5ELECT",
+        "Drag joystick to move. Drag anywhere else to look around. Tap and",
+        "hold blocks to interact with them."
+      ],
+      "actionable_elements": [
+        "CONTROL MODE",
+        "Choose a Control Mode",
+        "Joystick & tap to interact",
+        "D-Pad & tap to interact",
+        "Joystick & aim crosshair",
+        "5ELECT",
+        "Drag joystick to move. Drag anywhere else to look around. Tap and",
+        "hold blocks to interact with them."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_7b75279c": {
+      "screen_id": "in_game_7b75279c",
+      "label": "in_game",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "FFFT",
+        "Loadling..",
+        "Even in Mineoraft you'll get hungry, so try to find",
+        "something to eat before that happens."
+      ],
+      "actionable_elements": [
+        "FFFT",
+        "Loadling..",
+        "Even in Mineoraft you'll get hungry, so try to find",
+        "something to eat before that happens."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_6208b6a5": {
+      "screen_id": "in_game_6208b6a5",
+      "label": "in_game",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINEERAFT",
+        "Game is paused",
+        ", 5ocial Ce",
+        "The list of players in your world can",
+        "now be found in herre!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singRioom"
+      ],
+      "actionable_elements": [
+        "MINEERAFT",
+        "Game is paused",
+        ", 5ocial Ce",
+        "The list of players in your world can",
+        "now be found in herre!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_1d374ce9": {
+      "screen_id": "in_game_1d374ce9",
+      "label": "in_game",
+      "first_seen": 1785729178.4731257,
+      "last_seen": 1785729178.4731257,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_377eae4a": {
+      "screen_id": "in_game_377eae4a",
+      "label": "in_game",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785731063.6922708,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_91abdf1a": {
+      "screen_id": "play_menu_91abdf1a",
+      "label": "play_menu",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785732461.1441252,
+      "seen_count": 2,
+      "sample_ui_texts": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(4)",
+        "Create new world",
+        "5urvival",
+        "Survival",
+        "My World"
+      ],
+      "actionable_elements": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(4)",
+        "Create new world",
+        "5urvival",
+        "Survival"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "create_world_config_f1e4635b": {
+      "screen_id": "create_world_config_f1e4635b",
+      "label": "create_world_config",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 10,
+      "sample_ui_texts": [
+        "CREATE HEWHORLD",
+        "Horldname",
+        "My korld",
+        "Gamemode",
+        "Creative",
+        "5urwival",
+        "CREATE",
+        "Explore a mysterious world where you build, collect, craft, and fight monsters.",
+        "Difficulty",
+        "Create on Riealms",
+        "Feaceful",
+        "Easy"
+      ],
+      "actionable_elements": [
+        "CREATE HEWHORLD",
+        "Horldname",
+        "My korld",
+        "Gamemode",
+        "Creative",
+        "5urwival",
+        "CREATE",
+        "Explore a mysterious world where you build, collect, craft, and fight monsters."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_eb15ed6d": {
+      "screen_id": "in_game_eb15ed6d",
+      "label": "in_game",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785731063.6922708,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u7231\u798f",
+        "FFT",
+        "L0.ading..",
+        "Use seagrass to attract and breed sea turtles."
+      ],
+      "actionable_elements": [
+        "\u7231\u798f",
+        "FFT",
+        "L0.ading..",
+        "Use seagrass to attract and breed sea turtles."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_9bfb464a": {
+      "screen_id": "in_game_9bfb464a",
+      "label": "in_game",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785731063.6922708,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u4e2d\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78",
+        "\u56fd\u56fd\u76ee"
+      ],
+      "actionable_elements": [
+        "\u4e2d\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78",
+        "\u56fd\u56fd\u76ee"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_244f81c3": {
+      "screen_id": "pause_menu_244f81c3",
+      "label": "pause_menu",
+      "first_seen": 1785731063.6922708,
+      "last_seen": 1785731063.6922708,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "HIHECRAFT",
+        "Game is paused",
+        "5ocial C0",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singFioom"
+      ],
+      "actionable_elements": [
+        "HIHECRAFT",
+        "Game is paused",
+        "5ocial C0",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "unknown_2e427317": {
+      "screen_id": "unknown_2e427317",
+      "label": "unknown",
+      "first_seen": 1785732461.1441252,
+      "last_seen": 1785732461.1441252,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        ":5tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons",
+        "5ettings",
+        "Learn More",
+        "Riealms",
+        "Frofile",
+        "Drressing Rioom",
+        "Marketplace",
+        "\u2465Mo.jang RB",
+        "v26.33"
+      ],
+      "actionable_elements": [
+        ":5tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons",
+        "5ettings",
+        "Learn More",
+        "Riealms",
+        "Frofile"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_fcb9dcac": {
+      "screen_id": "in_game_fcb9dcac",
+      "label": "in_game",
+      "first_seen": 1785732461.1441252,
+      "last_seen": 1785732461.1441252,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Ks",
+        "h14",
+        "BRFT",
+        "Lo3ding..",
+        "Endermen hate bath time!"
+      ],
+      "actionable_elements": [
+        "Ks",
+        "h14",
+        "BRFT",
+        "Lo3ding..",
+        "Endermen hate bath time!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_652e6201": {
+      "screen_id": "in_game_652e6201",
+      "label": "in_game",
+      "first_seen": 1785732461.1441252,
+      "last_seen": 1785732461.1441252,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u83ef\u6642\u6642\u6642\u5b78\u5b78\u96fb"
+      ],
+      "actionable_elements": [
+        "\u83ef\u6642\u6642\u6642\u5b78\u5b78\u96fb"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_49744e13": {
+      "screen_id": "pause_menu_49744e13",
+      "label": "pause_menu",
+      "first_seen": 1785732461.1441252,
+      "last_seen": 1785732461.1441252,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "INEERRFT",
+        "Game is paused",
+        "Social C@)",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singFioom"
+      ],
+      "actionable_elements": [
+        "INEERRFT",
+        "Game is paused",
+        "Social C@)",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_18b28dc6": {
+      "screen_id": "in_game_18b28dc6",
+      "label": "in_game",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "HL"
+      ],
+      "actionable_elements": [
+        "HL"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_f34fc042": {
+      "screen_id": "play_menu_f34fc042",
+      "label": "play_menu",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(6)",
+        "Create new world",
+        "5urvival",
+        "Suryival",
+        "My World",
+        "<\u696d"
+      ],
+      "actionable_elements": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(6)",
+        "Create new world",
+        "5urvival",
+        "Suryival"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_61bc72e1": {
+      "screen_id": "in_game_61bc72e1",
+      "label": "in_game",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u6c47RFFT",
+        "HIHE",
+        "L0.ading..",
+        "Get to your destination faster with a minecart and",
+        "\u2264omerail!"
+      ],
+      "actionable_elements": [
+        "\u6c47RFFT",
+        "HIHE",
+        "L0.ading..",
+        "Get to your destination faster with a minecart and",
+        "\u2264omerail!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_07984334": {
+      "screen_id": "in_game_07984334",
+      "label": "in_game",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u7ae0\u8eca\u6642\u8087\u5b78\u83ef\u4e2d\u5e36"
+      ],
+      "actionable_elements": [
+        "\u7ae0\u8eca\u6642\u8087\u5b78\u83ef\u4e2d\u5e36"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_d7468170": {
+      "screen_id": "pause_menu_d7468170",
+      "label": "pause_menu",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINECRAFT",
+        "Game is paused",
+        "5ocial ce",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume GaMe",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dressing Fioom"
+      ],
+      "actionable_elements": [
+        "MINECRAFT",
+        "Game is paused",
+        "5ocial ce",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume GaMe",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_a919cc49": {
+      "screen_id": "in_game_a919cc49",
+      "label": "in_game",
+      "first_seen": 1785733159.1058147,
+      "last_seen": 1785733159.1058147,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u83ef\u55ae\u83ef\u83ef\u83ef\u83ef\u8087\u83ef"
+      ],
+      "actionable_elements": [
+        "\u83ef\u55ae\u83ef\u83ef\u83ef\u83ef\u8087\u83ef"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_f8bdbed6": {
+      "screen_id": "menu_f8bdbed6",
+      "label": "menu",
+      "first_seen": 1785737869.864741,
+      "last_seen": 1785737869.864741,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "65tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons",
+        "5ettings",
+        "Learn More",
+        "Riealms",
+        "Frofile",
+        "Drressing Rioom",
+        "Marketplace",
+        "\u2465Mo.jang RB",
+        "v26.33"
+      ],
+      "actionable_elements": [
+        "65tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons",
+        "5ettings",
+        "Learn More",
+        "Riealms",
+        "Frofile"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_cdd32c14": {
+      "screen_id": "play_menu_cdd32c14",
+      "label": "play_menu",
+      "first_seen": 1785737869.864741,
+      "last_seen": 1785738916.9350216,
+      "seen_count": 2,
+      "sample_ui_texts": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds her...yet!",
+        "Create a new world from soratch or create a world from a template."
+      ],
+      "actionable_elements": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds her...yet!",
+        "Create a new world from soratch or create a world from a template."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_b065b0c5": {
+      "screen_id": "in_game_b065b0c5",
+      "label": "in_game",
+      "first_seen": 1785737869.864741,
+      "last_seen": 1785737869.864741,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5de5RFFT",
+        "HHE",
+        "L0.ading..",
+        "Plant some saplings and they'll. grow into trees."
+      ],
+      "actionable_elements": [
+        "\u5de5RFFT",
+        "HHE",
+        "L0.ading..",
+        "Plant some saplings and they'll. grow into trees."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_8ba98698": {
+      "screen_id": "in_game_8ba98698",
+      "label": "in_game",
+      "first_seen": 1785737869.864741,
+      "last_seen": 1785737869.864741,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "1L"
+      ],
+      "actionable_elements": [
+        "1L"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_e5eb4e09": {
+      "screen_id": "pause_menu_e5eb4e09",
+      "label": "pause_menu",
+      "first_seen": 1785737869.864741,
+      "last_seen": 1785737869.864741,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINEERAFT",
+        "Gameis paused",
+        "Social C0",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singRioom"
+      ],
+      "actionable_elements": [
+        "MINEERAFT",
+        "Gameis paused",
+        "Social C0",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_4ee0afdc": {
+      "screen_id": "in_game_4ee0afdc",
+      "label": "in_game",
+      "first_seen": 1785738916.9350216,
+      "last_seen": 1785738916.9350216,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_c9444a29": {
+      "screen_id": "in_game_c9444a29",
+      "label": "in_game",
+      "first_seen": 1785738916.9350216,
+      "last_seen": 1785738916.9350216,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5de5\u5f00HFT",
+        "HE",
+        "L0.ading.",
+        "Use a hoe to prepare areas of ground for planting."
+      ],
+      "actionable_elements": [
+        "\u5de5\u5f00HFT",
+        "HE",
+        "L0.ading.",
+        "Use a hoe to prepare areas of ground for planting."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_128dcb77": {
+      "screen_id": "in_game_128dcb77",
+      "label": "in_game",
+      "first_seen": 1785738916.9350216,
+      "last_seen": 1785738916.9350216,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78",
+        "\u4e2d\u56fd"
+      ],
+      "actionable_elements": [
+        "\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78\u5b78",
+        "\u4e2d\u56fd"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_6b447595": {
+      "screen_id": "pause_menu_6b447595",
+      "label": "pause_menu",
+      "first_seen": 1785738916.9350216,
+      "last_seen": 1785738916.9350216,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Game is paused",
+        "Social C0)",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singRioom"
+      ],
+      "actionable_elements": [
+        "Game is paused",
+        "Social C0)",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_e544c9c3": {
+      "screen_id": "in_game_e544c9c3",
+      "label": "in_game",
+      "first_seen": 1785740097.340842,
+      "last_seen": 1785740097.340842,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_1164000c": {
+      "screen_id": "play_menu_1164000c",
+      "label": "play_menu",
+      "first_seen": 1785740097.340842,
+      "last_seen": 1785740097.340842,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds here... yet!",
+        "Create a new world from soratch or create a world from a template."
+      ],
+      "actionable_elements": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds here... yet!",
+        "Create a new world from soratch or create a world from a template."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_c0465e28": {
+      "screen_id": "in_game_c0465e28",
+      "label": "in_game",
+      "first_seen": 1785740097.340842,
+      "last_seen": 1785740097.340842,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5de5REFT",
+        "Lo.ading..",
+        "Ocelots show creepers who's boss!"
+      ],
+      "actionable_elements": [
+        "\u5de5REFT",
+        "Lo.ading..",
+        "Ocelots show creepers who's boss!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_d5d8975e": {
+      "screen_id": "in_game_d5d8975e",
+      "label": "in_game",
+      "first_seen": 1785740097.340842,
+      "last_seen": 1785740097.340842,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5b78\u5b78\u6642\u6642\u4e2d\u4e2d\u5b78\u5b78",
+        "\u4e2d\u76ee"
+      ],
+      "actionable_elements": [
+        "\u5b78\u5b78\u6642\u6642\u4e2d\u4e2d\u5b78\u5b78",
+        "\u4e2d\u76ee"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_dffb7031": {
+      "screen_id": "pause_menu_dffb7031",
+      "label": "pause_menu",
+      "first_seen": 1785740097.340842,
+      "last_seen": 1785740097.340842,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MIHECRAFT",
+        "Game is paused",
+        "R, 5ocial ce]",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume GaMe",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Drre\u2264singRioom"
+      ],
+      "actionable_elements": [
+        "MIHECRAFT",
+        "Game is paused",
+        "R, 5ocial ce]",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume GaMe",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_51f382d6": {
+      "screen_id": "in_game_51f382d6",
+      "label": "in_game",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "RL"
+      ],
+      "actionable_elements": [
+        "RL"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_fb317f8f": {
+      "screen_id": "play_menu_fb317f8f",
+      "label": "play_menu",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "R, 5ocial <0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(1)",
+        "Create new world",
+        "Survival",
+        "0A_World_122..."
+      ],
+      "actionable_elements": [
+        "R, 5ocial <0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds(1)",
+        "Create new world",
+        "Survival",
+        "0A_World_122..."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_92877dfa": {
+      "screen_id": "menu_92877dfa",
+      "label": "menu",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5f00FFT",
+        "Lo.adinig..",
+        "When wandering in the deep dar-k, silence is key."
+      ],
+      "actionable_elements": [
+        "\u5f00FFT",
+        "Lo.adinig..",
+        "When wandering in the deep dar-k, silence is key."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_8b884d21": {
+      "screen_id": "in_game_8b884d21",
+      "label": "in_game",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u00e0Wi:ih"
+      ],
+      "actionable_elements": [
+        "\u00e0Wi:ih"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_2b12edf6": {
+      "screen_id": "pause_menu_2b12edf6",
+      "label": "pause_menu",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "HINECREFT",
+        "Game is paused",
+        "5ocial C@",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume Game",
+        "\u00e0wi:wt",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Drre\u2264singFioom"
+      ],
+      "actionable_elements": [
+        "HINECREFT",
+        "Game is paused",
+        "5ocial C@",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fiesume Game",
+        "\u00e0wi:wt",
+        "5ettings"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_7c9a75e9": {
+      "screen_id": "in_game_7c9a75e9",
+      "label": "in_game",
+      "first_seen": 1785740923.3601458,
+      "last_seen": 1785740923.3601458,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "3de",
+        "\u00e0Wi:ih"
+      ],
+      "actionable_elements": [
+        "3de",
+        "\u00e0Wi:ih"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_3663d6f8": {
+      "screen_id": "menu_3663d6f8",
+      "label": "menu",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_9f6a064c": {
+      "screen_id": "play_menu_9f6a064c",
+      "label": "play_menu",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds (2)",
+        "Create new world",
+        "5urvival",
+        "Survival",
+        "QA_World_123...",
+        "Qn_World_122."
+      ],
+      "actionable_elements": [
+        "FR, 5ocial (0)",
+        "PLAY",
+        "Riealms",
+        "5ervers",
+        "Worlds (2)",
+        "Create new world",
+        "5urvival",
+        "Survival"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_bb822b7a": {
+      "screen_id": "in_game_bb822b7a",
+      "label": "in_game",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u5de5HFFT",
+        "HHE",
+        "L0.ading..",
+        "Sea pickles can be smelted into lime green dye,"
+      ],
+      "actionable_elements": [
+        "\u5de5HFFT",
+        "HHE",
+        "L0.ading..",
+        "Sea pickles can be smelted into lime green dye,"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_3b1e5f80": {
+      "screen_id": "in_game_3b1e5f80",
+      "label": "in_game",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_300c1d7b": {
+      "screen_id": "pause_menu_300c1d7b",
+      "label": "pause_menu",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Game is paused",
+        "5ocial",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "Dre\u2264singRioom"
+      ],
+      "actionable_elements": [
+        "Game is paused",
+        "5ocial",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_0d6da8c7": {
+      "screen_id": "in_game_0d6da8c7",
+      "label": "in_game",
+      "first_seen": 1785742739.9335573,
+      "last_seen": 1785742739.9335573,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_c24a8ee8": {
+      "screen_id": "menu_c24a8ee8",
+      "label": "menu",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "bistic5tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons I",
+        "1I",
+        "5ettings",
+        "Learn More",
+        "Riealms",
+        "Frofile",
+        "Dressing Rioom",
+        "Marketplace",
+        "\u2465Mo.jang RB"
+      ],
+      "actionable_elements": [
+        "bistic5tew799",
+        "Mineoraft",
+        "Flay",
+        "Dungeons I",
+        "1I",
+        "5ettings",
+        "Learn More",
+        "Riealms"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_c4802519": {
+      "screen_id": "play_menu_c4802519",
+      "label": "play_menu",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds her...yet!",
+        "Create a new world from scratch or create a world from a template."
+      ],
+      "actionable_elements": [
+        "PLAY",
+        "F7, 5ocial <0)",
+        "Riealms",
+        "5ervers",
+        "Worlds(0)",
+        "Create new world",
+        "Ho worlds her...yet!",
+        "Create a new world from scratch or create a world from a template."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_3b720a95": {
+      "screen_id": "menu_3b720a95",
+      "label": "menu",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "E\u5de5RPFT",
+        "HINE",
+        "Lo.ading...",
+        "U=e a water bottle on a dir-t block to get mud!"
+      ],
+      "actionable_elements": [
+        "E\u5de5RPFT",
+        "HINE",
+        "Lo.ading...",
+        "U=e a water bottle on a dir-t block to get mud!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_ebb40c5c": {
+      "screen_id": "in_game_ebb40c5c",
+      "label": "in_game",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "H\uff1a"
+      ],
+      "actionable_elements": [
+        "H\uff1a"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_7c589fef": {
+      "screen_id": "pause_menu_7c589fef",
+      "label": "pause_menu",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MIHECRAFT",
+        "Game is paused",
+        "Social Ce",
+        "The list of players in your world can",
+        "now be found in herre!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "DrressingRioom"
+      ],
+      "actionable_elements": [
+        "MIHECRAFT",
+        "Game is paused",
+        "Social Ce",
+        "The list of players in your world can",
+        "now be found in herre!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_1b1c14eb": {
+      "screen_id": "in_game_1b1c14eb",
+      "label": "in_game",
+      "first_seen": 1785745391.4325404,
+      "last_seen": 1785745391.4325404,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_baa90184": {
+      "screen_id": "menu_baa90184",
+      "label": "menu",
+      "first_seen": 1785746399.9223313,
+      "last_seen": 1785746399.9223313,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_01bc544e": {
+      "screen_id": "play_menu_01bc544e",
+      "label": "play_menu",
+      "first_seen": 1785746399.9223313,
+      "last_seen": 1785746399.9223313,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "R, 5ocial <0)",
+        "PLAY",
+        "Worlds(1)",
+        "Riealms",
+        "5ervers",
+        "Create new world",
+        "5urvival",
+        "0A_World_134..."
+      ],
+      "actionable_elements": [
+        "R, 5ocial <0)",
+        "PLAY",
+        "Worlds(1)",
+        "Riealms",
+        "5ervers",
+        "Create new world",
+        "5urvival",
+        "0A_World_134..."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_73dacd45": {
+      "screen_id": "menu_73dacd45",
+      "label": "menu",
+      "first_seen": 1785746399.9223313,
+      "last_seen": 1785746399.9223313,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINECRRFT",
+        "Lo.ading..",
+        "Monsters spawn in the dark, Craft a torch to",
+        "brighten up any space."
+      ],
+      "actionable_elements": [
+        "MINECRRFT",
+        "Lo.ading..",
+        "Monsters spawn in the dark, Craft a torch to",
+        "brighten up any space."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_c4f2912c": {
+      "screen_id": "in_game_c4f2912c",
+      "label": "in_game",
+      "first_seen": 1785746399.9223313,
+      "last_seen": 1785746399.9223313,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u624b\u5b78\u5b78\u5b78\u5b78\u5b78"
+      ],
+      "actionable_elements": [
+        "\u624b\u5b78\u5b78\u5b78\u5b78\u5b78"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_4ca8dc10": {
+      "screen_id": "pause_menu_4ca8dc10",
+      "label": "pause_menu",
+      "first_seen": 1785746399.9223313,
+      "last_seen": 1785746399.9223313,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "Game is paused",
+        "Social C@)",
+        "The list of players in your world",
+        "0a7",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "DressingRioom"
+      ],
+      "actionable_elements": [
+        "Game is paused",
+        "Social C@)",
+        "The list of players in your world",
+        "0a7",
+        "now be found in here!",
+        "Riesume Game",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_153b6489": {
+      "screen_id": "menu_153b6489",
+      "label": "menu",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "182KB/s8.l i\u3002",
+        "2:21 PM",
+        "1\u8bdd"
+      ],
+      "actionable_elements": [
+        "182KB/s8.l i\u3002",
+        "2:21 PM",
+        "1\u8bdd"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "play_menu_0632e1da": {
+      "screen_id": "play_menu_0632e1da",
+      "label": "play_menu",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "FR, 5ocial <0)",
+        "PLAY",
+        "Riealms",
+        "Worlds (2)",
+        "5ervers",
+        "Create new world",
+        "5urvival",
+        "Survival",
+        "0A_World_1405.",
+        "0n_World_134.."
+      ],
+      "actionable_elements": [
+        "FR, 5ocial <0)",
+        "PLAY",
+        "Riealms",
+        "Worlds (2)",
+        "5ervers",
+        "Create new world",
+        "5urvival",
+        "Survival"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_ca80a571": {
+      "screen_id": "menu_ca80a571",
+      "label": "menu",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINECARFT",
+        "L0.ading..",
+        "Ancient cities can be found under mountain ranges."
+      ],
+      "actionable_elements": [
+        "MINECARFT",
+        "L0.ading..",
+        "Ancient cities can be found under mountain ranges."
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_ba2a73d7": {
+      "screen_id": "in_game_ba2a73d7",
+      "label": "in_game",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MRE"
+      ],
+      "actionable_elements": [
+        "MRE"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "pause_menu_33c340f9": {
+      "screen_id": "pause_menu_33c340f9",
+      "label": "pause_menu",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "MINEERAFT",
+        "Gameis paused",
+        "\u0146 5ocial c0]",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fie\u2264umeGare",
+        "5ettings",
+        "Birow\u2264e Add-ons!",
+        "5ave & Quit",
+        "DressingRioom"
+      ],
+      "actionable_elements": [
+        "MINEERAFT",
+        "Gameis paused",
+        "\u0146 5ocial c0]",
+        "The list of players in your world can",
+        "now be found in here!",
+        "Fie\u2264umeGare",
+        "5ettings",
+        "Birow\u2264e Add-ons!"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_cf0c5240": {
+      "screen_id": "in_game_cf0c5240",
+      "label": "in_game",
+      "first_seen": 1785747515.8089354,
+      "last_seen": 1785747515.8089354,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "\u56fd\u56fd",
+        "MRE"
+      ],
+      "actionable_elements": [
+        "\u56fd\u56fd",
+        "MRE"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from_screen": "main_menu",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_from_menu",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_world_config",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "control_mode",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "control_mode",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu",
+      "action": {
+        "action": "tap",
+        "target": "Save & Quit"
+      },
+      "to_screen": "play_menu",
+      "seen_count": 1,
+      "source": "explore"
+    },
+    {
+      "from_screen": "main_menu_b0ca9981",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "create_world_config_213d4274",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_213d4274",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_from_menu_b88e77bc",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "in_game_71515f54",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_71515f54",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "control_mode_43d8e4ac",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "control_mode_43d8e4ac",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_7b75279c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_7b75279c",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "in_game_6208b6a5",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_6208b6a5",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_1d374ce9",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_377eae4a",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_91abdf1a",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_91abdf1a",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 2,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_from_menu_b88e77bc",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_world_config_f1e4635b",
+      "seen_count": 10,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_eb15ed6d",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_eb15ed6d",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_9bfb464a",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_9bfb464a",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_244f81c3",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_244f81c3",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_9bfb464a",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "unknown_2e427317",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_91abdf1a",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_fcb9dcac",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_fcb9dcac",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_652e6201",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_652e6201",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_49744e13",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_49744e13",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_652e6201",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_18b28dc6",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_f34fc042",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_f34fc042",
+      "action": {
+        "action": "tap",
+        "target": "My World"
+      },
+      "to_screen": "in_game_61bc72e1",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_61bc72e1",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_07984334",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_07984334",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_d7468170",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_d7468170",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_a919cc49",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_f8bdbed6",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_cdd32c14",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_cdd32c14",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 2,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_b065b0c5",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_b065b0c5",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_8ba98698",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_8ba98698",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_e5eb4e09",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_e5eb4e09",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_8ba98698",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_4ee0afdc",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_cdd32c14",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_c9444a29",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_c9444a29",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_128dcb77",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_128dcb77",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_6b447595",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_6b447595",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_128dcb77",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_e544c9c3",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_1164000c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_1164000c",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_c0465e28",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_c0465e28",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_d5d8975e",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_d5d8975e",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_dffb7031",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_dffb7031",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_d5d8975e",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_51f382d6",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_fb317f8f",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_fb317f8f",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "menu_92877dfa",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_92877dfa",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_8b884d21",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_8b884d21",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_2b12edf6",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_2b12edf6",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_7c9a75e9",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_3663d6f8",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_9f6a064c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_9f6a064c",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "in_game_bb822b7a",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_bb822b7a",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_3b1e5f80",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_3b1e5f80",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_300c1d7b",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_300c1d7b",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_0d6da8c7",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_c24a8ee8",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_c4802519",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_c4802519",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "menu_3b720a95",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_3b720a95",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_ebb40c5c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_ebb40c5c",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_7c589fef",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_7c589fef",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_1b1c14eb",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_baa90184",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_01bc544e",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_01bc544e",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "menu_73dacd45",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_73dacd45",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_c4f2912c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_c4f2912c",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_4ca8dc10",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_4ca8dc10",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_c4f2912c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_153b6489",
+      "action": {
+        "action": "tap",
+        "target": "Play"
+      },
+      "to_screen": "play_menu_0632e1da",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "play_menu_0632e1da",
+      "action": {
+        "action": "tap",
+        "target": "Create new world"
+      },
+      "to_screen": "create_from_menu_b88e77bc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "create_world_config_f1e4635b",
+      "action": {
+        "action": "tap",
+        "target": "CREATE"
+      },
+      "to_screen": "menu_ca80a571",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_ca80a571",
+      "action": {
+        "action": "tap",
+        "target": "SELECT"
+      },
+      "to_screen": "in_game_ba2a73d7",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "in_game_ba2a73d7",
+      "action": {
+        "action": "tap",
+        "target": "Pause"
+      },
+      "to_screen": "pause_menu_33c340f9",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "pause_menu_33c340f9",
+      "action": {
+        "action": "tap",
+        "target": "Back to Game"
+      },
+      "to_screen": "in_game_cf0c5240",
+      "seen_count": 1,
+      "source": "seed"
+    }
+  ]
+}

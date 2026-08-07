@@ -1,0 +1,55 @@
+{
+  "game": "Bloons TD 6",
+  "specs": [
+    {
+      "id": "CMP-01",
+      "category": "compliance",
+      "requirement": "The age/rating splash logo must display for at least 2000 ms on launch.",
+      "target_scene": "loading",
+      "checks": [{"type": "timing", "event": "splash_logo", "min_ms": 2000}]
+    },
+    {
+      "id": "CMP-02",
+      "category": "compliance",
+      "requirement": "A privacy policy link must be reachable from the settings screen.",
+      "target_text": "Privacy",
+      "checks": [{"type": "element_present", "text": "Privacy"}]
+    },
+    {
+      "id": "PERF-01",
+      "category": "performance",
+      "requirement": "Frame rate stays at or above 30 fps during a round.",
+      "target_scene": "in_game",
+      "checks": [{"type": "perf", "metric": "fps", "min": 30}]
+    },
+    {
+      "id": "PERF-02",
+      "category": "performance",
+      "requirement": "No crash or ANR during a 10-minute play session.",
+      "target_scene": "in_game",
+      "checks": [{"type": "no_crash", "duration_s": 600}]
+    },
+    {
+      "id": "GMP-01",
+      "category": "gameplay",
+      "requirement": "Player can enter a Monkey Meadow match on Beginner difficulty.",
+      "target_text": "Monkey Meadow",
+      "checks": [{"type": "scene_reached", "scene": "in_game"}]
+    },
+    {
+      "id": "GMP-02",
+      "category": "gameplay",
+      "requirement": "Placing a tower reduces the player's cash.",
+      "target_scene": "in_game",
+      "checks": [{"type": "state_change", "of": "cash", "direction": "decrease"}]
+    },
+      {
+      "id": "GMP-03",
+      "category": "gameplay",
+      "requirement": "The round counter advances after starting a round.",
+      "target_scene": "in_game",
+      "params": {"target_round": 10},
+      "checks": [{"type": "state_change", "of": "round", "direction": "increase"}]
+    }
+  ]
+}

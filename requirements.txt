@@ -1,0 +1,24 @@
+openai>=1.0.0
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+paddleocr>=2.7.0
+paddlepaddle>=2.6.0
+Pillow>=10.0.0
+# Optional accelerator for the RL layer (src/rl). The tabular agent also runs
+# on the stdlib alone; numpy is used only if present. See REINFORCEMENT_LEARNING.md.
+numpy>=1.24
+pytest
+# Only needed when EXECUTION_MODE=appium (imported lazily). Pulls Selenium 4.
+Appium-Python-Client>=3.1
+
+# Real-time reflex games (endless runners like Subway Surfers): CV perception
+# in src/device/fast_io.py + src/games/*/perception.py. cv2 is often already
+# present transitively; pin it explicitly for those games.
+opencv-python>=4.8
+#
+# NOTE: the high-FPS scrcpy backend is NOT listed here on purpose. scrcpy-client
+# 0.4.1 hard-pins `av<10`, which has no wheel on Python 3.11+ and fails to build
+# from source. Installing it via `pip install -r requirements.txt` would re-trigger
+# that failure. Install the runner backend separately (see requirements-runner.txt
+# / src/games/subway_surfers/README.md). Without it, fast_io uses the slow adb
+# fallback (fine for tests, too slow to actually play).

@@ -1,0 +1,15 @@
+{
+  "_comment": "Perception geometry/thresholds for Subway Surfers. These are STARTING POINTS — tune on the target device by capturing frames and adjusting lane bounds and block_coverage until perceive() flags the right lanes. Fractions are of frame width/height.",
+  "field_top": 0.45,
+  "field_bottom": 0.92,
+  "danger_top": 0.55,
+  "danger_bottom": 0.80,
+  "player_band_top": 0.78,
+  "lane_near_bounds": [0.16, 0.40, 0.60, 0.84],
+  "lane_far_bounds": [0.40, 0.46, 0.54, 0.60],
+  "block_coverage": 0.14,
+  "low_obstacle_v": 0.70,
+  "high_obstacle_v": 0.30,
+  "edge_canny_lo": 60,
+  "edge_canny_hi": 160
+}

@@ -1,0 +1,4 @@
+{
+  "labels": ["PLAY"],
+  "_comment": "The navigation 'golden path': the ordered list of button labels to tap from the main menu into a match. The MapAgent replays this to seed the screen graph. Replace with your game's real path, e.g. ['PLAY', 'Level 1', 'START']."
+}

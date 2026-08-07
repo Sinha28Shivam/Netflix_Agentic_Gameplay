@@ -1,0 +1,515 @@
+{
+  "game_id": "bloons_td6",
+  "updated_at": 1784361848.891967,
+  "nodes": {
+    "menu_6425eb4b": {
+      "screen_id": "menu_6425eb4b",
+      "label": "menu",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784313536.141234,
+      "seen_count": 1,
+      "sample_ui_texts": [],
+      "actionable_elements": [],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "home_0749bfdc": {
+      "screen_id": "home_0749bfdc",
+      "label": "home",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784313536.141234,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "$1,086",
+        "IvoryMist54",
+        "NeW",
+        "SBCAKL",
+        "DD",
+        "LeGenDs",
+        "PLAY",
+        "MONKEYS",
+        "HEROES",
+        "POWERS KNOWLEDGE"
+      ],
+      "actionable_elements": [
+        "$1,086",
+        "IvoryMist54",
+        "NeW",
+        "SBCAKL",
+        "DD",
+        "LeGenDs",
+        "PLAY",
+        "MONKEYS"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_c2c02241": {
+      "screen_id": "menu_c2c02241",
+      "label": "menu",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784346757.8466964,
+      "seen_count": 3,
+      "sample_ui_texts": [
+        "MONKeYMeADOW",
+        "InTHeLOOP",
+        "SKULLTWeAK",
+        "FRIenDS",
+        "THRee MInes'ROuND",
+        "SPAPITS",
+        "TInKeRTOn",
+        "BeGinneR",
+        "InTeRmeDIATe",
+        "ADVAnceD",
+        "CHANGe HeRO",
+        "EXPeRT"
+      ],
+      "actionable_elements": [
+        "MONKeYMeADOW",
+        "InTHeLOOP",
+        "SKULLTWeAK",
+        "FRIenDS",
+        "THRee MInes'ROuND",
+        "SPAPITS",
+        "TInKeRTOn",
+        "BeGinneR"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "difficulty_select_65bb6e0c": {
+      "screen_id": "difficulty_select_65bb6e0c",
+      "label": "difficulty_select",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784314833.5161676,
+      "seen_count": 2,
+      "sample_ui_texts": [
+        "EdgedGrunt604",
+        "EASY",
+        "MeDIum",
+        "HARD",
+        "REWARDS:",
+        "$300",
+        "CHANGe HeRO"
+      ],
+      "actionable_elements": [
+        "EdgedGrunt604",
+        "EASY",
+        "MeDIum",
+        "HARD",
+        "REWARDS:",
+        "$300",
+        "CHANGe HeRO"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "difficulty_select_a7f71abd": {
+      "screen_id": "difficulty_select_a7f71abd",
+      "label": "difficulty_select",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784314833.5161676,
+      "seen_count": 2,
+      "sample_ui_texts": [
+        "EASY",
+        "On Easy Monkeys cost less than normal, the Bloons move a little slower and you have 200",
+        "lives. Beating round 40 in Easy awards you a bronze medal for that track.",
+        "PRimARYonLY",
+        "DeFLATion",
+        "STAnDARD",
+        "REWARDS:",
+        "$112",
+        "SANDBOX",
+        "CHAnGeHeRO"
+      ],
+      "actionable_elements": [
+        "EASY",
+        "On Easy Monkeys cost less than normal, the Bloons move a little slower and you have 200",
+        "lives. Beating round 40 in Easy awards you a bronze medal for that track.",
+        "PRimARYonLY",
+        "DeFLATion",
+        "STAnDARD",
+        "REWARDS:",
+        "$112"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_0744679f": {
+      "screen_id": "in_game_0744679f",
+      "label": "in_game",
+      "first_seen": 1784313536.141234,
+      "last_seen": 1784313536.141234,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "ROuD",
+        "$650",
+        "1/4O",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320",
+        "$220",
+        "34O",
+        "$190"
+      ],
+      "actionable_elements": [
+        "ROuD",
+        "$650",
+        "1/4O",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "menu_c62d8e6b": {
+      "screen_id": "menu_c62d8e6b",
+      "label": "menu",
+      "first_seen": 1784314833.5151565,
+      "last_seen": 1784314833.5151565,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "STep2OF10...",
+        "Unleashing Monkey Sun God... downloading",
+        "\u00a9 Ninja Kiwi Version 55.2.10954",
+        "UserID:ZXOPUDMKK"
+      ],
+      "actionable_elements": [
+        "STep2OF10...",
+        "Unleashing Monkey Sun God... downloading",
+        "\u00a9 Ninja Kiwi Version 55.2.10954",
+        "UserID:ZXOPUDMKK"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_87b12e90": {
+      "screen_id": "in_game_87b12e90",
+      "label": "in_game",
+      "first_seen": 1784314833.5161676,
+      "last_seen": 1784314833.5161676,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "$650",
+        "ROunD",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320",
+        "$220",
+        "34O",
+        "$190"
+      ],
+      "actionable_elements": [
+        "$650",
+        "ROunD",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320",
+        "$220"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "title_ed0bf899": {
+      "screen_id": "title_ed0bf899",
+      "label": "title",
+      "first_seen": 1784346757.8466964,
+      "last_seen": 1784346757.8466964,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "weLcomeTo",
+        "DNS",
+        "ANEPICADVenTUReOF",
+        "MOnKeYSVSBLOOns",
+        "START",
+        "\u00a9 Ninja Kiwi Version 55.2.10954"
+      ],
+      "actionable_elements": [
+        "weLcomeTo",
+        "DNS",
+        "ANEPICADVenTUReOF",
+        "MOnKeYSVSBLOOns",
+        "START",
+        "\u00a9 Ninja Kiwi Version 55.2.10954"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "home_4ad96495": {
+      "screen_id": "home_4ad96495",
+      "label": "home",
+      "first_seen": 1784346757.8466964,
+      "last_seen": 1784346757.8466964,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "$1,086",
+        "IvoryMist54",
+        "NeW",
+        "PLAY",
+        "LeGenDs",
+        "SOCIAL",
+        "MONKEYS",
+        "HEROES",
+        "POWERS KNOWLEDGE"
+      ],
+      "actionable_elements": [
+        "$1,086",
+        "IvoryMist54",
+        "NeW",
+        "PLAY",
+        "LeGenDs",
+        "SOCIAL",
+        "MONKEYS",
+        "HEROES"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "difficulty_select_57461b5c": {
+      "screen_id": "difficulty_select_57461b5c",
+      "label": "difficulty_select",
+      "first_seen": 1784346757.8466964,
+      "last_seen": 1784346757.8466964,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "EdgedGrunt604",
+        "EASY",
+        "MeDlum",
+        "HARD",
+        "REWARDS:",
+        "$300",
+        "CHANGe HeRO"
+      ],
+      "actionable_elements": [
+        "EdgedGrunt604",
+        "EASY",
+        "MeDlum",
+        "HARD",
+        "REWARDS:",
+        "$300",
+        "CHANGe HeRO"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "difficulty_select_5416f722": {
+      "screen_id": "difficulty_select_5416f722",
+      "label": "difficulty_select",
+      "first_seen": 1784346757.8472059,
+      "last_seen": 1784346757.8472059,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "EASY",
+        "On Easy Monkeys cost less than normal, the Bloons move a little slower and you have 200",
+        "lives. Beating round 40 in Easy awards you a bronze medal for that track.",
+        "PRimARYonLY",
+        "DeFLATion",
+        "STANDARD",
+        "REWARDS:",
+        "SANDBOX",
+        "CHAnGeHeRO"
+      ],
+      "actionable_elements": [
+        "EASY",
+        "On Easy Monkeys cost less than normal, the Bloons move a little slower and you have 200",
+        "lives. Beating round 40 in Easy awards you a bronze medal for that track.",
+        "PRimARYonLY",
+        "DeFLATion",
+        "STANDARD",
+        "REWARDS:",
+        "SANDBOX"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    },
+    "in_game_57d53859": {
+      "screen_id": "in_game_57d53859",
+      "label": "in_game",
+      "first_seen": 1784346757.8472059,
+      "last_seen": 1784346757.8472059,
+      "seen_count": 1,
+      "sample_ui_texts": [
+        "$65O",
+        "ROUND",
+        "1/4O",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320",
+        "$220",
+        "34O",
+        "$190"
+      ],
+      "actionable_elements": [
+        "$65O",
+        "ROUND",
+        "1/4O",
+        "UPGRADeS",
+        "QuincY",
+        "#H6O",
+        "$270",
+        "$320"
+      ],
+      "is_terminal": false,
+      "tags": [
+        "seeded"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from_screen": "menu_6425eb4b",
+      "action": {
+        "action": "tap",
+        "target": "START"
+      },
+      "to_screen": "home_0749bfdc",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "home_0749bfdc",
+      "action": {
+        "action": "tap",
+        "target": "PLAY"
+      },
+      "to_screen": "menu_c2c02241",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_c2c02241",
+      "action": {
+        "action": "tap",
+        "target": "Monkey Meadow"
+      },
+      "to_screen": "difficulty_select_65bb6e0c",
+      "seen_count": 2,
+      "source": "seed"
+    },
+    {
+      "from_screen": "difficulty_select_65bb6e0c",
+      "action": {
+        "action": "tap",
+        "target": "EASY"
+      },
+      "to_screen": "difficulty_select_a7f71abd",
+      "seen_count": 2,
+      "source": "seed"
+    },
+    {
+      "from_screen": "difficulty_select_a7f71abd",
+      "action": {
+        "action": "tap",
+        "target": "STANDARD"
+      },
+      "to_screen": "in_game_0744679f",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_c62d8e6b",
+      "action": {
+        "action": "tap",
+        "target": "START"
+      },
+      "to_screen": "menu_c2c02241",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "difficulty_select_a7f71abd",
+      "action": {
+        "action": "tap",
+        "target": "STANDARD"
+      },
+      "to_screen": "in_game_87b12e90",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "title_ed0bf899",
+      "action": {
+        "action": "tap",
+        "target": "START"
+      },
+      "to_screen": "home_4ad96495",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "home_4ad96495",
+      "action": {
+        "action": "tap",
+        "target": "PLAY"
+      },
+      "to_screen": "menu_c2c02241",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "menu_c2c02241",
+      "action": {
+        "action": "tap",
+        "target": "Monkey Meadow"
+      },
+      "to_screen": "difficulty_select_57461b5c",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "difficulty_select_57461b5c",
+      "action": {
+        "action": "tap",
+        "target": "EASY"
+      },
+      "to_screen": "difficulty_select_5416f722",
+      "seen_count": 1,
+      "source": "seed"
+    },
+    {
+      "from_screen": "difficulty_select_5416f722",
+      "action": {
+        "action": "tap",
+        "target": "STANDARD"
+      },
+      "to_screen": "in_game_57d53859",
+      "seen_count": 1,
+      "source": "seed"
+    }
+  ]
+}

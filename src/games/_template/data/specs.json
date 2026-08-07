@@ -1,0 +1,12 @@
+{
+  "game": "__DISPLAY_NAME__",
+  "requirements": [
+    {
+      "id": "GMP-01",
+      "category": "gameplay",
+      "requirement": "The game boots and reaches its main menu.",
+      "target_scene": "main_menu",
+      "checks": [{"type": "scene_reached", "scene": "main_menu"}]
+    }
+  ]
+}

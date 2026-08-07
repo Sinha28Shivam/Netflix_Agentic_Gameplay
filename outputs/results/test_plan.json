@@ -1,0 +1,243 @@
+{
+  "game": "Minecraft",
+  "game_id": "minecraft",
+  "created_world": "QA_World_142333",
+  "scenarios": [
+    {
+      "id": "mc_01_title_screen_boot",
+      "category": "compliance",
+      "title": "Game boots to title screen with Mojang branding",
+      "objective": "Verify: Game boots to title screen with Mojang branding",
+      "nav_path": [],
+      "target": {
+        "scene": "main_menu"
+      },
+      "checks": [
+        {
+          "type": "check_mojang_copyright"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_02_play_screen_nav",
+      "category": "gameplay",
+      "title": "Navigate to PLAY screen with Worlds tab visible",
+      "objective": "Drive the game to confirm: Navigate to PLAY screen with Worlds tab visible",
+      "nav_path": [],
+      "target": {
+        "scene": "play_menu"
+      },
+      "checks": [
+        {
+          "type": "check_world_listed_after_save_quit",
+          "world_name": ""
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_03_create_world_config",
+      "category": "gameplay",
+      "title": "Navigate to CREATE NEW WORLD config screen",
+      "objective": "Drive the game to confirm: Navigate to CREATE NEW WORLD config screen",
+      "nav_path": [],
+      "target": {
+        "scene": "create_world_config"
+      },
+      "checks": [
+        {
+          "type": "check_minecraft_hud_visible"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_04_control_mode_select",
+      "category": "gameplay",
+      "title": "Confirm CONTROL MODE selection dialog",
+      "objective": "Drive the game to confirm: Confirm CONTROL MODE selection dialog",
+      "nav_path": [],
+      "target": {
+        "scene": "control_mode"
+      },
+      "checks": [
+        {
+          "type": "check_minecraft_hud_visible"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_05_in_game_hud_render",
+      "category": "gameplay",
+      "title": "World renders and HUD hotbar is displayed",
+      "objective": "Drive the game to confirm: World renders and HUD hotbar is displayed",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_minecraft_hud_visible"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_06_performance_framerate",
+      "category": "performance",
+      "title": "FPS remains steady above target threshold during world render",
+      "objective": "Measure: FPS remains steady above target threshold during world render",
+      "nav_path": [],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_minecraft_hud_visible"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_07_movement_joystick",
+      "category": "gameplay",
+      "title": "Movement joystick actually drives the player through the world",
+      "objective": "Drive the game to confirm: Movement joystick actually drives the player through the world",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_screen_changed_after_action"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_08_camera_look",
+      "category": "gameplay",
+      "title": "Swiping the look area rotates the camera/world view",
+      "objective": "Drive the game to confirm: Swiping the look area rotates the camera/world view",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_screen_changed_after_action"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_09_hotbar_selection",
+      "category": "gameplay",
+      "title": "Tapping hotbar slots updates the selection highlight",
+      "objective": "Drive the game to confirm: Tapping hotbar slots updates the selection highlight",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_screen_changed_after_action"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_10_block_interaction",
+      "category": "gameplay",
+      "title": "Press-and-hold on a block breaks/places it in the world",
+      "objective": "Drive the game to confirm: Press-and-hold on a block breaks/places it in the world",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "in_game"
+      },
+      "checks": [
+        {
+          "type": "check_screen_changed_after_action"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_11_pause_resume",
+      "category": "gameplay",
+      "title": "Pause menu opens on demand and resumes gameplay cleanly",
+      "objective": "Drive the game to confirm: Pause menu opens on demand and resumes gameplay cleanly",
+      "nav_path": [
+        "Play",
+        "QA_World_142333"
+      ],
+      "target": {
+        "scene": "pause_menu"
+      },
+      "checks": [
+        {
+          "type": "check_pause_menu_showing"
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    },
+    {
+      "id": "mc_12_save_and_quit_roundtrip",
+      "category": "gameplay",
+      "title": "Save & Quit persists the world and returns it to the Worlds list",
+      "objective": "Drive the game to confirm: Save & Quit persists the world and returns it to the Worlds list",
+      "nav_path": [],
+      "target": {
+        "scene": "play_menu"
+      },
+      "checks": [
+        {
+          "type": "check_world_listed_after_save_quit",
+          "world_name": ""
+        }
+      ],
+      "params": {},
+      "passes": 5,
+      "needs_mapping": false
+    }
+  ]
+}
