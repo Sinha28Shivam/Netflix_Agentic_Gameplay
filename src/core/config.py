@@ -95,7 +95,7 @@ QWEN_MODEL = VISION_MODEL
 # ============================================================
 # SEED / DATA FILES
 # ============================================================
-SEED_FILE  = os.environ.get("SEED_FILE",  "seed_scripts/bloons_seed.json")
+SEED_FILE  = os.environ.get("SEED_FILE",  "data/seeds/bloons_seed.json")
 SPECS_FILE = os.environ.get("SPECS_FILE", "data/seeds/specs.json")
 
 # ============================================================

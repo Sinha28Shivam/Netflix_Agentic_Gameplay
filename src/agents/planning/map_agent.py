@@ -125,6 +125,9 @@ class MapAgent:
         """Replay recorded_actions (or observe a live human) and record every screen."""
         prev_screen_id = None
         prev_action    = None
+        if isinstance(recorded_actions, dict) and "labels" in recorded_actions:
+            recorded_actions = [{"action": "tap", "target": label} for label in recorded_actions["labels"]]
+
         steps = recorded_actions if recorded_actions is not None else [None] * max_steps
 
         for action in steps:

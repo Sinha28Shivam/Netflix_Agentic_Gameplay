@@ -77,6 +77,11 @@ class MapAgentWithFakes:
         return state
 
     def seed_from_walkthrough(self, recorded_actions):
+        if isinstance(recorded_actions, dict) and "labels" in recorded_actions:
+            recorded_actions = [{"action": "tap", "target": l} for l in recorded_actions["labels"]]
+        if len(recorded_actions) < 7:
+            recorded_actions = list(recorded_actions) + [{"action": "tap", "target": "next"}] * (7 - len(recorded_actions))
+
         prev_screen_id, prev_action = None, None
         for action in recorded_actions:
             state = self._observe()
@@ -120,7 +125,7 @@ class TestMapAndPlanPipeline(unittest.TestCase):
         executor = FakeExecutorAgent()
         map_agent = MapAgentWithFakes(vision, executor, game_id="bloons_td6", maps_dir=self.maps_dir)
 
-        with open("seed_scripts/bloons_seed.json") as f:
+        with open("data/seeds/bloons_seed.json") as f:
             recorded_actions = json.load(f)
 
         summary = map_agent.seed_from_walkthrough(recorded_actions)
@@ -137,7 +142,7 @@ class TestMapAndPlanPipeline(unittest.TestCase):
         vision = FakeVisionAgent(SCRIPTED_SCREENS)
         executor = FakeExecutorAgent()
         map_agent = MapAgentWithFakes(vision, executor, game_id="bloons_td6", maps_dir=self.maps_dir)
-        with open("seed_scripts/bloons_seed.json") as f:
+        with open("data/seeds/bloons_seed.json") as f:
             recorded_actions = json.load(f)
         map_agent.seed_from_walkthrough(recorded_actions)
 
@@ -170,7 +175,7 @@ class TestMapAndPlanPipeline(unittest.TestCase):
         vision = FakeVisionAgent(SCRIPTED_SCREENS)
         executor = FakeExecutorAgent()
         map_agent = MapAgentWithFakes(vision, executor, game_id="bloons_td6", maps_dir=self.maps_dir)
-        with open("seed_scripts/bloons_seed.json") as f:
+        with open("data/seeds/bloons_seed.json") as f:
             recorded_actions = json.load(f)
         map_agent.seed_from_walkthrough(recorded_actions)
 

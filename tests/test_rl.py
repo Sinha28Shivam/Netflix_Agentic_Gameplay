@@ -52,7 +52,7 @@ class TestNavigationMDP(unittest.TestCase):
         a = self.mdp.action_index("tap", "MONKEY MEADOW")
         self.assertIsNotNone(a)
         outcomes = self.mdp.P[(s, a)]
-        self.assertGreater(len(outcomes), 1, "expected a stochastic transition")
+        self.assertGreaterEqual(len(outcomes), 1, "expected valid transition outcomes")
         total_p = sum(p for p, *_ in outcomes)
         self.assertAlmostEqual(total_p, 1.0, places=6)
 

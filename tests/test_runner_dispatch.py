@@ -17,7 +17,7 @@ from src.core.engine.test_runner import TestRunner
 # Production code calls time.sleep() between route steps and retries (real
 # pacing for a live device). Patched at module level so the test suite
 # stays fast — this does not affect what's being tested, only wall-clock cost.
-_sleep_patcher = patch("agents.test_runner.time.sleep", return_value=None)
+_sleep_patcher = patch("src.core.engine.test_runner.time.sleep", return_value=None)
 
 
 def make_test_case(**overrides):
@@ -78,7 +78,7 @@ class TestRunnerDispatch(unittest.TestCase):
             capture_state_fn=capture_state_fn,
         )
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_gameplay_route_runs_and_passes(self, _mock_screenshot):
         tc = make_test_case()
         executor = FakeExecutorAgent(succeed=True)
@@ -95,7 +95,7 @@ class TestRunnerDispatch(unittest.TestCase):
         self.assertEqual(len(executor.calls), 1)
         self.assertEqual(executor.calls[0]["target"], "Play")
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_gameplay_check_fails_when_field_missing(self, _mock_screenshot):
         tc = make_test_case()
         executor = FakeExecutorAgent(succeed=True)
@@ -110,7 +110,7 @@ class TestRunnerDispatch(unittest.TestCase):
         self.assertEqual(result.status, "FAIL")
         self.assertIn("cash", result.reason)
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_route_execution_failure_returns_error_not_silent_pass(self, _mock_screenshot):
         tc = make_test_case()
         executor = FakeExecutorAgent(succeed=False)  # every tap fails
@@ -122,7 +122,7 @@ class TestRunnerDispatch(unittest.TestCase):
         self.assertEqual(result.status, "ERROR")
         self.assertIn("Route step", result.reason)
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_landing_on_wrong_screen_is_error_not_misreported_fail(self, _mock_screenshot):
         tc = make_test_case(target_screen="placement")
         executor = FakeExecutorAgent(succeed=True)
@@ -137,7 +137,7 @@ class TestRunnerDispatch(unittest.TestCase):
         self.assertEqual(result.status, "ERROR")
         self.assertIn("MapGap", result.reason)
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_compliance_category_dispatches_to_compliance_agent(self, _mock_screenshot):
         tc = make_test_case(
             test_id="compliance_01_iap_price_disclosure",
@@ -157,7 +157,7 @@ class TestRunnerDispatch(unittest.TestCase):
         self.assertEqual(result.category, "compliance")
         self.assertIn(result.status, ("PASS", "FAIL"))  # routed through ComplianceAgent, not gameplay_checks
 
-    @patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64")
+    @patch("src.device.device.get_screenshot_base64", return_value="fake_b64")
     def test_performance_category_uses_performance_summary(self, _mock_screenshot):
         tc = make_test_case(
             test_id="performance_01_in_round_fps_floor",
@@ -183,7 +183,7 @@ class TestRunnerDispatch(unittest.TestCase):
     def test_unregistered_check_fn_is_error_not_silent_pass(self):
         tc = make_test_case(check_fn="assert_something_never_implemented")
         executor = FakeExecutorAgent(succeed=True)
-        with patch("device.adb_utils.get_screenshot_base64", return_value="fake_b64"):
+        with patch("src.device.device.get_screenshot_base64", return_value="fake_b64"):
             states = [{"scene": "loading"}, {"scene": "main_menu", "resources": {"cash": 1}}]
             runner = self._make_runner(executor, states)
             result = runner.run(tc)

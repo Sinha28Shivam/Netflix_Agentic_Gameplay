@@ -24,14 +24,12 @@ from src.agents.compliance.compliance_agent import ComplianceAgent
 
 
 def fake_openai_response(verdict="pass", confidence=0.9, reasoning="looks fine"):
-    """Builds a MagicMock shaped like an OpenAI chat completion response."""
+    """Builds a MagicMock shaped like an Anthropic message response."""
     payload = json.dumps({"verdict": verdict, "confidence": confidence, "reasoning": reasoning})
-    msg = MagicMock()
-    msg.content = payload
-    choice = MagicMock()
-    choice.message = msg
+    content_block = MagicMock()
+    content_block.text = payload
     response = MagicMock()
-    response.choices = [choice]
+    response.content = [content_block]
     return response
 
 
@@ -90,7 +88,7 @@ class TestVerificationJudgeRouting(unittest.TestCase):
 
     def test_high_confidence_verdict_is_not_queued(self):
         client = MagicMock()
-        client.chat.completions.create.return_value = fake_openai_response(verdict="pass", confidence=0.95)
+        client.messages.create.return_value = fake_openai_response(verdict="pass", confidence=0.95)
         judge = VerificationJudge(client, confidence_threshold=0.75)
 
         finding = judge.judge("fake_b64", "main_menu", "text_contrast_adequate")
@@ -101,7 +99,7 @@ class TestVerificationJudgeRouting(unittest.TestCase):
 
     def test_low_confidence_verdict_is_queued_not_counted(self):
         client = MagicMock()
-        client.chat.completions.create.return_value = fake_openai_response(verdict="fail", confidence=0.4)
+        client.messages.create.return_value = fake_openai_response(verdict="fail", confidence=0.4)
         judge = VerificationJudge(client, confidence_threshold=0.75)
 
         finding = judge.judge("fake_b64", "main_menu", "ad_clearly_labeled")
@@ -113,12 +111,10 @@ class TestVerificationJudgeRouting(unittest.TestCase):
     def test_malformed_response_is_zero_confidence_not_silent_fail(self):
         client = MagicMock()
         bad_response = MagicMock()
-        bad_msg = MagicMock()
-        bad_msg.content = "not json at all"
-        bad_choice = MagicMock()
-        bad_choice.message = bad_msg
-        bad_response.choices = [bad_choice]
-        client.chat.completions.create.return_value = bad_response
+        bad_block = MagicMock()
+        bad_block.text = "not json at all"
+        bad_response.content = [bad_block]
+        client.messages.create.return_value = bad_response
 
         judge = VerificationJudge(client, confidence_threshold=0.75)
         finding = judge.judge("fake_b64", "main_menu", "text_contrast_adequate")
@@ -145,12 +141,12 @@ class TestComplianceAgentRouting(unittest.TestCase):
             ambiguous_checks_to_run=[],
         )
 
-        client.chat.completions.create.assert_not_called()
+        client.messages.create.assert_not_called()
         self.assertGreater(len(agent.findings_log), 0)
 
     def test_ambiguous_checks_only_call_model_for_registered_questions(self):
         client = MagicMock()
-        client.chat.completions.create.return_value = fake_openai_response(verdict="pass", confidence=0.9)
+        client.messages.create.return_value = fake_openai_response(verdict="pass", confidence=0.9)
         agent = ComplianceAgent(client, confidence_threshold=0.75)
 
         agent.inspect(
@@ -161,12 +157,12 @@ class TestComplianceAgentRouting(unittest.TestCase):
             ambiguous_checks_to_run=["text_contrast_adequate"],
         )
 
-        self.assertEqual(client.chat.completions.create.call_count, 1)
+        self.assertEqual(client.messages.create.call_count, 1)
         self.assertEqual(len(agent.judge_findings_log), 1)
 
     def test_summary_marks_pending_review_distinct_from_pass(self):
         client = MagicMock()
-        client.chat.completions.create.return_value = fake_openai_response(verdict="fail", confidence=0.3)
+        client.messages.create.return_value = fake_openai_response(verdict="fail", confidence=0.3)
         agent = ComplianceAgent(client, confidence_threshold=0.75)
 
         agent.inspect(
